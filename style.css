@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+  padding-left: 2vw;
+  padding-right: 2vw;
+
+  transition: 500ms ease;
+  font-family: "Oswald", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  font-size: 16px;
+
+  /* Custom props, Variables */
+  --text-primary: ;
+}
+
+/* NAVBAR */
+
+nav {
+  display: grid;
+  height: 10vh;
+  grid-auto-flow: column;
+  text-transform: uppercase;
+}
+
+.navbar {
+}
+
+nav .navbar {
+}
+
+.logo {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+}
+.logo img {
+  width: 40px;
+  height: auto;
+  align-content: center;
+}
+
+.links {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+/* NAVBAR */
+
+/* HEADER */
+
+header {
+  height: 40vh;
+  width: 100vw;
+  display: grid;
+  transition: 200ms ease;
+}
+
+.headertitle {
+  display: grid;
+  align-content: center;
+
+  height: 10vh;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1em;
+  color: white;
+  background-color: black;
+  box-shadow: 0 4px 2px -2px gray;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.header2 {
+  height: 40vh;
+  transition: 200ms ease;
+}
+
+.headertext {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 5vh;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 400px) {
+  .headertext {
+    font-size: 1.5em;
+  }
+}
+
+.headertext2 {
+  padding-top: 2.5vh;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+.headerimg {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+/* HEADER */
+
+/* ORDER */
+.onlineorder {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  flex-wrap: wrap;
+  padding-bottom: 10vh;
+  justify-content: space-around;
+}
+
+.onlineimg {
+  height: 40vh;
+  transition: 1s ease;
+}
+
+.onlinetext {
+  padding-top: 20vh;
+  text-align: center;
+}
+
+@media only screen and (max-width: 730px) {
+  .onlineimg {
+    margin-top: 5vh;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .onlinetext {
+    padding-top: 5vh;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .onlineimg {
+    margin-top: 5vh;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ORDER */
+
+/* MAIN */
+
+/* MENU */
+.menu {
+  height: 100vh;
+}
+.menutitle {
+  text-transform: uppercase;
+  text-align: center;
+}
+@media only screen and (max-width: 510px) {
+  .menu {
+    height: 160vh;
+  }
+}
+@media only screen and (max-width: 345px) {
+  .menu {
+    height: 200vh;
+  }
+}
+
+.menubox {
+}
+
+.menuitems {
+  padding-top: 5vh;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.menuitems div {
+  padding-top: 5vh;
+}
+
+.entrees {
+  display: flex;
+  flex-direction: column;
+}
+.entrees img {
+  width: 20vh;
+}
+.sides {
+  display: flex;
+  flex-direction: column;
+}
+.sides img {
+  width: 20vh;
+}
+.drinks {
+  display: flex;
+  flex-direction: column;
+}
+.drinks img {
+  width: 20vh;
+}
+
+/* MENU */
+
+.location {
+  text-transform: uppercase;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 700px) {
+  .location {
+    text-transform: uppercase;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .location {
+    text-transform: uppercase;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.locationtitle {
+  text-align: center;
+  padding-bottom: 5vh;
+}
+.locationtext {
+  text-align: center;
+  padding-bottom: 5vh;
+}
+.locationimg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10vh;
+}
+
+/* MAIN */
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 5vh;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+/* FOOTER */

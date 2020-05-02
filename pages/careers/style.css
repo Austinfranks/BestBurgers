@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+:root {
+  font-size: 16px;
+
+  /* Custom props, Variables */
+  --text-primary: ;
+}
+
+/* NAVBAR */
+
+nav {
+  display: grid;
+  height: 10vh;
+  grid-auto-flow: column;
+  text-transform: uppercase;
+}
+
+.navbar {
+}
+
+nav .navbar {
+}
+
+.logo {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+}
+.logo img {
+  width: 40px;
+  height: auto;
+  align-content: center;
+}
+.links {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+}
+nav a {
+  text-decoration: none;
+}
+
+.navactive {
+  font-weight: bold;
+}
+/* NAVBAR */
