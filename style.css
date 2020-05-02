@@ -273,6 +273,8 @@ header {
 }
 
 .about {
+  padding-top: 10vh;
+
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 10vh;
