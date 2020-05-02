@@ -234,6 +234,12 @@ header {
 
 /* MENU */
 
+@media only screen and (max-width: 400px) {
+  .location {
+    margin-top: 10vh;
+  }
+}
+
 .location {
   text-transform: uppercase;
   height: 50vh;
